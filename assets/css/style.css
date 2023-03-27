@@ -1805,3 +1805,37 @@ outline: none;
     /* height: 500px; */
   }
 }
+
+.a3-button2 {
+  outline: none;
+  -webkit-animation: button2 0.9s ease-in-out infinite both;
+  animation: button2 0.9s ease-in-out infinite both;
+}
+@-webkit-keyframes button2 {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes button2 {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
